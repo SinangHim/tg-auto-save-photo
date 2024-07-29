@@ -21,7 +21,7 @@ app.listen(port, () => {
 });
 
 // Replace with your actual Telegram bot token
-const token = "7328329090:AAGpNl8bgYl6arD5hOpv0j_kFBmyBNYTAMc";
+const token = "YOUR_TELEGRAM_BOT_TOKEN";
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, { polling: true });
